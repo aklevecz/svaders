@@ -1,0 +1,1 @@
+vec3 p=vec3(0,0,3),v=vec3(FC.xy*2.-r,r.y);for(float T,d,i,n=fsnoise(ceil(FC.y/r+t/.3));i++<2e2;p-=v/length(v)*d)T+=d=min(length(max(abs(p*rotate3D(n*t,tan(r.yxy+n)))+n-1.,-n*n*.8))-n*n,1.-p.y),i>1e2?d+=1e-5,v=fract(cos(t+sqrt(FC.x*FC.y*vec3(9,7,5)))*5e3),o.g=T:T=0.;

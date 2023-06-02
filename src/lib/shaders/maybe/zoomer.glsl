@@ -1,0 +1,1 @@
+vec2 c=FC.xy,u=c+c-r,p=u/(2.-u/r).y;float s=1.,i=s,l=length(p);for(;s<64.;s+=s)o1+=snoise2D(vec2(log(l)-t,sin(atan(p.y,p.x)+s+t*.2)/.6)*s)/s;o1=dFdy(o1)*l/3e1+vec4(.4,.1,0,9);for(vec4 S;i<16.;i+=1./i)S=texture(b1,c/r+u.yy*rotate2D(2.4*i*i)/9e2*i/r),o0+=S*(S*S).r;o0/=o0.a;
