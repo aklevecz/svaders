@@ -4,6 +4,7 @@
   import Ribbons from "$lib/Ribbons.svelte";
   import Rain from "$lib/Rain.svelte";
   import Water from "$lib/Water.svelte";
+  import Base from "$lib/Base.svelte";
 </script>
 
 <div class="container">
@@ -23,6 +24,9 @@
   </div>
   <div class="gl_view_container">
     <Water />
+  </div>
+  <div>
+    <Base shader="sdf" dims={{ width: 500, height: 500 }} />
   </div>
 </div>
 

@@ -44,10 +44,10 @@
     scene.add(planeMesh);
 
     if (frame) {
-      console.log(frame);
       cancelAnimationFrame(frame);
     }
 
+    // @note should I access this somewhere else at a higher level?
     function render(t) {
       shaderMaterial.uniforms.time.value += 0.01;
       frame = requestAnimationFrame(render);
@@ -63,9 +63,9 @@
     initScene();
   });
 
-  onMount(() => {
-    initScene();
-  });
+  // onMount(() => {
+  //   initScene();
+  // });
 
   onDestroy(() => {
     if (frame) cancelAnimationFrame(frame);
