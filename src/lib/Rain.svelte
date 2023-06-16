@@ -1,10 +1,12 @@
 <script>
-  import * as Types from "$types/types.d.js";
-  import Base from "./Base.svelte";
-  let shader = "rain";
+  import { Shaders, Dims } from "$types";
+  import Scene from "$components/Scene.svelte";
+  import vertexShader from "./shaders-js/vertex.js";
+  import fragmentShader from "./shaders-js/rain/fragment.js"
 
-  /** @type {Types.Dims} */
-  export let dims = { width: 0, height: 0 };
+  /** @type {Dims} */
+  export let dims = {width:0, height:0}
+  const { width, height } = dims;
 </script>
 
-<Base {shader} {dims} />
+  <Scene {width} {height} {vertexShader} fragmentShader={fragmentShader} />

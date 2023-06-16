@@ -10,6 +10,6 @@ let outString = `/**
     */
    
    /** @type {Shaders} */
-   export const shaders = ""; `;
+   export default ""; `;
 
 fs.writeFileSync(resolve(__dirname, "../types/shaders.d.js"), outString);
