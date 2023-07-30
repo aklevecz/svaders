@@ -1,12 +1,12 @@
 <script>
-  import { Base, Shader } from "$lib";
+  import { Base, Shaders } from "$lib";
 </script>
 
 <div class="container">
-  {#each Object.keys(Shader) as shader}
+  {#each Object.keys(Shaders) as shader}
     <div class="gl_view_container">
       <div class="shader-name">{shader}</div>
-      <Base shader={Shader[shader]} />
+      <Base shader={Shaders[shader]} />
     </div>
   {/each}
 </div>

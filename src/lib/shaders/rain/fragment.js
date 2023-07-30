@@ -1,3 +1,4 @@
+// credit - https://twitter.com/XorDev
 /** @type {string} */
 export default /* glsl */ `// vec2 p,
 //b=vec2(0,.2);

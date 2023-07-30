@@ -1,3 +1,4 @@
+// credit - https://twitter.com/XorDev
 /** @type {string} */
 export default /* glsl */ `uniform float time;
 uniform vec2 resolution;

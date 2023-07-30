@@ -1,3 +1,4 @@
+// credit - https://twitter.com/XorDev
 /** @type {string} */
 export default /* glsl */ `//Anti-Aliasing (SSAA). Use 1.0 on slower computers
 #define AA 2.

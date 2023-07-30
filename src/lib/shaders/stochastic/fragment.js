@@ -1,3 +1,4 @@
+// credit - https://twitter.com/XorDev
 /** @type {string} */
 export default /* glsl */ `// Golf of "Quadicube" by panna_pudi
 // https://shadertoy.com/view/NsByWV

@@ -1,3 +1,4 @@
+// credit - https://twitter.com/XorDev
 /** @type {string} */
 export default /* glsl */ `#define NOISE 2// Perlin, Worley1, Worley2
 

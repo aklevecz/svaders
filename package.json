@@ -1,6 +1,6 @@
 {
   "name": "svaders",
-  "version": "0.0.1351",
+  "version": "0.0.1352",
   "scripts": {
     "dev": "vite dev --host",
     "build": "vite build && npm run package",
