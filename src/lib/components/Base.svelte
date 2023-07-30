@@ -1,6 +1,6 @@
 <script>
-  import {Shader} from "$lib"
-  import { Shaders, Dims } from "$types";
+  import { Shaders } from "$lib"
+  import { Dims } from "$types";
   import Scene from "$components/Scene.svelte";
   import vertexShader from "$shaders/vertex.js";
   /** @type {string}*/
