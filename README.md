@@ -10,6 +10,8 @@ To install Svaders, simply run the following command:
 npm install svaders
 ```
 
+[Example on Stackblitz](https://stackblitz.com/edit/vitejs-vite-kddiho?embed=1&file=src%2FApp.svelte)
+
 ### Components
 
 Svaders provides prebaked components that you can use out of the box. More components are constantly being added. Here are the currently available components:
