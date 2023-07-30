@@ -1,11 +1,14 @@
 <script>
-  import { Base } from "$lib";
+  import { Base, Shader } from "$lib";
 </script>
 
 <div class="container">
-  <div class="gl_view_container">
-    <Base shader="liquid" dims={{ width: 0, height: 0 }} />
-  </div>
+  {#each Object.keys(Shader) as shader}
+    <div class="gl_view_container">
+      <div class="shader-name">{shader}</div>
+      <Base shader={Shader[shader]} />
+    </div>
+  {/each}
 </div>
 
 <style>
@@ -18,5 +21,15 @@
     width: 300px;
     height: 300px;
     background-color: black;
+    position: relative;
+  }
+  .shader-name {
+    position: absolute;
+    z-index: 9;
+    color: white;
+    font-size: 2.5rem;
+    padding: 10px 16px;
+    font-family: sans-serif;
+    mix-blend-mode: difference;
   }
 </style>

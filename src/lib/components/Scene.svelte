@@ -1,5 +1,5 @@
 <script>
-  import { afterUpdate, beforeUpdate, onDestroy, onMount } from "svelte";
+  import { afterUpdate, beforeUpdate, onDestroy } from "svelte";
   import {
     Mesh,
     Scene,
@@ -10,9 +10,6 @@
     Vector2,
     BufferAttribute,
   } from "three";
-
-  // import vertexShader from "../shaders/liquid/vertex.glsl";
-  // import fragmentShader from "../shaders/liquid/fragment.glsl";
 
   /** @type {HTMLCanvasElement}*/
   let canvas;

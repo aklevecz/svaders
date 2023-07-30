@@ -11,6 +11,7 @@ const config = {
       // these are the aliases and paths to them
       $components: "src/lib/components",
       $types: "src/lib/types",
+      $shaders: "src/lib/shaders",
     },
   },
 };

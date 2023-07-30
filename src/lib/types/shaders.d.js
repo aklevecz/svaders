@@ -1,6 +1,8 @@
 /**
-    * @typedef  {('cells'|'dropper'|'flow'|'glitch'|'liquid'|'maybe'|'mushroom'|'neurons'|'rain'|'ribbons'|'sdf'|'stochastic'|'vertex.glsl'|'water')} Shaders
+    * @typedef  {('cells'|'dropper'|'glitch'|'liquid'|'mushroom'|'rain'|'ribbons'|'sdf'|'stochastic'|'water')} Shaders
     */
    
    /** @type {Shaders} */
    export default ""; 
+
+   

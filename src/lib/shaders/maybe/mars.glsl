@@ -1,1 +1,0 @@
-vec3 d=vec3(FC.xy*2.-r,r)/r.x,p;for(float i,s;i++<2e2;p+=d*(p.y+.2-.2*snoise2D((p.xz*.6+t*.2)*s))/s)s=exp(mod(i,5.));o.grb=.5*d+.03*++d/length(d.xy-1.3)-.7/++p.z-min(.2+p+p,0.).y;
